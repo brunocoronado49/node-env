@@ -1,0 +1,16 @@
+{
+  "name": "section2-bases",
+  "version": "0.0.1",
+  "description": "Bases de Nodejs",
+  "license": "ISC",
+  "author": "bruce",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
