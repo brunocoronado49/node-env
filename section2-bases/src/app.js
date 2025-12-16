@@ -1,8 +1,12 @@
-const { getAge, getUUID } = require('./plugins');
+const getPokemonById =  require('./js-foundation/07-async-await');
 
-const { buildMakePerson } = require('./js-foundation/05-factory-functions');
+getPokemonById(6).then(resp => console.log(resp.name));
 
-const obj = {name: 'John Wick', birthdate: '1997-10-06'};
-const makePerson = buildMakePerson(getUUID, getAge);
-const johnWick = makePerson(obj);
-console.log({johnWick});
+// const { getAge, getUUID } = require('./plugins');
+
+// const { buildMakePerson } = require('./js-foundation/05-factory-functions');
+
+// const obj = {name: 'John Wick', birthdate: '1997-10-06'};
+// const makePerson = buildMakePerson(getUUID, getAge);
+// const johnWick = makePerson(obj);
+// console.log({johnWick});
