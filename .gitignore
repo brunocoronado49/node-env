@@ -3,3 +3,5 @@ section2-bases/*.log
 
 section3-typescript/node_modules
 section4-testing/node-ts-bases-fin-seccion-4/node_modules
+section4-testing/node-ts-bases-fin-seccion-4/combined.log
+section4-testing/node-ts-bases-fin-seccion-4/error.log
